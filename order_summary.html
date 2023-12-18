@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>KFC Order Summary</title>
+</head>
+<body>
+    <header>
+        <h1>KFC Order Summary</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listing.html">Menu</a></li>
+            <li><a href="order_summary.html">Order Summary</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="menu-section">
+            <h2>Menu</h2>
+            <div class="menu-item" onclick="addToOrder('ChickenBucket', 12.99)">
+                <img src="CAT86.jpg" alt="Chicken Bucket">
+                <h3>Chicken Bucket</h3>
+                <p>A delicious bucket of fried chicken with secret spices.</p>
+                <p>Price: $12.99</p>
+            </div>
+
+            <div class="menu-item" onclick="addToOrder('SpicyWings', 8.99)">
+                <img src="KFC_Hot___Spicy_Wings_HERO_larger-1.webp" alt="Spicy Wings">
+                <h3>Spicy Wings</h3>
+                <p>Spicy and crispy chicken wings to tickle your taste buds.</p>
+                <p>Price: $8.99</p>
+            </div>
+
+            <!-- Add more menu items as needed -->
+        </section>
+
+        <section id="order-section">
+            <h2>Your Order</h2>
+            <ul id="order-list"></ul>
+            <p id="total-price">Total Price: $12.00</p>
+            <!-- ... (previous HTML code) ... -->
+
+<section id="order-section">
+    <h2>Your Order</h2>
+    <ul id="order-list"></ul>
+    <p id="total-price">Total Price: $13.00</p>
+</section>
+<main>
+    <!-- Your order items and details go here -->
+    <div id="order-details">
+        <!-- Display order details here -->
+    </div>
+
+    <!-- Example "Add to Order" button -->
+    <button onclick="addToOrder('ChickenBucket', 12.99)">Add Chicken Bucket to Order</button>
+
+    <!-- Example "Order Summary" button -->
+    <button onclick="showOrderSummary()">Order Summary</button>
+
+<!-- ... (remaining HTML code) ... -->
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 KFC. All rights reserved.</p>
+    </footer>
+    <button onclick="addToOrder('ChickenBucket', 12.99)">Add Chicken Bucket to Order</button>
+
+    <script src="script.js"></script>
+    <button onclick="showOrderSummary()">Order Summary</button>
+
+
+</body>
+</html>

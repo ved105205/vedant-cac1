@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>KFC Menu</title>
+</head>
+<body>
+    <header>
+        <h1>KFC Menu</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listing.html">Menu</a></li>
+            <li><a href="order_summary.html">Order Summary</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="menu-item" onclick="showPrice('ChickenBucket')">
+            <img src="CAT86.jpg" alt="Chicken Bucket">
+            <h2>Chicken Bucket</h2>
+            <p>A delicious bucket of fried chicken with secret spices.</p>
+        </div>
+
+        <div class="menu-item" onclick="showPrice('SpicyWings')">
+            <img src="KFC_Hot___Spicy_Wings_HERO_larger-1.webp" alt="Spicy Wings">
+            <h2>Spicy Wings</h2>
+            <p>Spicy and crispy chicken wings to tickle your taste buds.</p>
+        </div>
+        <div class="menu-item" onclick="showPrice('SpicyWings')">
+            <img src="main menu.avif" alt="Spicy Wings">
+            <h2>Spicy Wings</h2>
+            <p>Spicy and crispy chicken wings to tickle your taste buds.</p>
+        </div>
+
+        <div id="price-display">
+            <!-- Price will be displayed here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 KFC. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
